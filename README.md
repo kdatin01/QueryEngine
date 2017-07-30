@@ -2,9 +2,8 @@
 3. Write an in-memory query engine in Ruby, Python or Go.
 
 Assumptions: 
-	1.  Database vs. Local Python Dictionary: given the time constaints, as well as my limited experience 	with HTTP protocols, especially with DBs, I chose to use a locally stored local python dictionary to 	post and get data.
+	1.  Database vs. Local Python Dictionary: given the time constaints, as well as my limited experience with HTTP protocols, especially with DBs, I chose to use a locally stored local python dictionary to post and get data.
 	2.  I assumed that if the specified range cannot be found in any of the stored ranges, returning an 	empty list would be OK.
-	3.  
 
 How to Run:
 	1.  Create Virtual Environment with flask and flask-restful installed.  I used conda for this:
